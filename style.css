@@ -6,14 +6,21 @@
     font-family: consolas;
 }
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     /* min-height: 10px;
-    min-width: 50vh; */
-    background-size: cover; 
+    min-width: 50vh;  */
+    /* background-size: cover;   */
     background: url(11.jpg);
-
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dark {
